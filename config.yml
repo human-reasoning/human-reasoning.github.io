@@ -12,9 +12,9 @@ taxonomies:
 
 menu:
     main:
-        - name: About Us
+        - name: About
           url: about/
-          weight: 5 
+          weight: 1
         - name: People
           url: people/
           weight: 2
@@ -23,7 +23,13 @@ menu:
           weight: 3
         - name: Publications
           url: publications/
-          weight: 4 
+          weight: 4
+        - name: News
+          url: news/
+          weight: 5
+        - name: Resources
+          url: resources/
+          weight: 6
 
 params:
     description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -41,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about","people","projects","publications"]
+    MainSections: ["about","people","projects","publications","news","resources"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -57,7 +63,7 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: About Us
+            - name: About
               url: about/
             - name: People
               url: people/
@@ -65,6 +71,10 @@ params:
               url: projects/
             - name: Publications
               url: publications/
+            - name: News
+              url: news/
+            - name: Resources
+              url: resources/
 
     socialIcons:
         - name: Email
