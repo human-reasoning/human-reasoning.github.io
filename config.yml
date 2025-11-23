@@ -33,7 +33,7 @@ menu:
 
 params:
     description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Laboratory for Human Reasoning
+    author:
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
